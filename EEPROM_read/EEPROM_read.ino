@@ -1,6 +1,6 @@
 #include <EEPROM.h>
 void setup() {
-  // put your setup code here, to run once:
+
   Serial.begin(115200);
 
   EEPROM.begin(4096);
